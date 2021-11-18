@@ -1,0 +1,86 @@
+.header{
+    padding:10px 15px ;
+    /* position: absolute; */
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #05A280;    
+    /* background: #000; */
+}
+
+.header .logo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 10%;
+    font-size: 30px;
+    /* background: red; */
+}
+.header .logo a{
+    display: inline-block;
+    /* text-align: center; */
+    line-height: 36px;
+    height: 40px;
+    width: auto;
+    /* font-size: 24px; */
+    color: rgb(255,255,255);
+  
+}
+.header .logo :nth-child(2){
+    color: #05A280;
+}
+.mid{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.header .navitems{
+      width: 30%;
+      display: flex;
+    }
+.header .navitems li{
+    margin-left: 30px;
+    /* border-bottom:  5px solid #05A280 ; */
+}
+.header .navitems li #active{
+    border-bottom:  2px solid #05A280 ;
+}
+.header .navitems li a{
+    display: inline-block;
+    text-align: center;
+    line-height: 36px;
+    font-size: 24px;
+    color: #ffff;
+}
+.search input{
+    height: 38px;
+    width: 392px;
+    border: none;
+    border-bottom: 1px solid  #05A280;
+  
+    /* border-radius: 17px; */
+    color: #05A280;
+    font-size: 24px;
+}
+.search button{
+    border: none;
+    font-size: 25px;
+    color: #ffff;
+}
+
+.login {
+    display: flex;
+    width: 30%;
+    place-content: flex-end;
+    line-height: 40px;
+    font-size: 24px;
+    align-items: center;
+    color: #ffff;
+}
+.login a{
+    display: flex;
+   text-align: center;
+   justify-content: center;
+   line-height: 20px;
+
+}
